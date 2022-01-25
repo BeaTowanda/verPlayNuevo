@@ -1,0 +1,38 @@
+*{margin:0px;
+  padding:0px;
+}
+main {
+  width: 90%;
+}
+
+body main div .encabezado{ 
+    display:flex;
+    width:100%;
+    display:flex;    
+    flex-wrap:nowrap;
+    flex-direction: row;
+    align-content: flex-start;    
+    background-color: blanchedalmond;
+   
+}
+form {display:flex;  
+      margin:15px;
+      align-content:center;
+}
+
+form div input{border-bottom-left-radius:5px;
+          border-top-right-radius: 5px;
+          background-color: orange 50%;
+          border-block-style:calc(10);
+}
+img {
+  width: 100%;
+  padding:5px;
+}
+
+.logo{ 
+    width:100%;    
+    padding: 5px;   
+} 
+
+@media(max-width:769px) and (min-width:362px){}

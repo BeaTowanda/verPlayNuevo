@@ -1,0 +1,109 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/css.css">
+    <link rel="stylesheet" type="text/css" media="all" href="cssUsuario.css">
+    
+</head>
+<body>      
+    <main >
+    <div class="encabezado">
+        <p>Imagen</p>
+        <p class="logo"><img scr="/img/geekNuevoJpg.jpg" widht="1" height="1" ></p>
+            <h1>Hola , estás en MUNDO GEEK </h1>
+    </div>
+        <form >
+            <img src="/img/geekCompra.jpg" alt="logo" widht="1" height="1">
+            <label for="usuario"> <span clas="banderas">Indentificate aquí : </span></label>
+            <br/>
+            <input  type="usuario" placeholder ="usuario" id ="nombre">
+            <br/>
+            <select name ="talla" id ="talla">
+                <option value = "large"> Large </option>
+                <option value = "medium">Medium </option>
+                <option value = "small">Small </option>
+            </select>
+            <select name ="color" id ="color">
+                <option value = "#17202a"> Negro </option>
+                <option value = "#c7039">Morado </option>
+                <option value = "daf7a6">Claro </option>
+            </select>
+            <br/>
+        </form>
+            <h2>Para ver botton redondo</h2>
+        <form>Tipo Contribuyente
+            <label >
+                <input type="radio" name="contribuyente" id="contribuyente">Consumidor Final
+
+            </label>
+            <label >
+                <input type="radio" name="contribuyente">Responsable Inscripto
+            </label>
+            <label >
+                <input type="radio" name="contribuyente">ONG
+            </label>
+            </form>
+            <p>Para ver como hubica todo en la página, ahora vengo con div</p>
+            <br/>
+        </form>
+            <br/>
+            <h2>EJERCICIO MASCOTAS </h2>
+        
+        <form action="" method="POST">
+            <label><span>MASCOTAS VER </span>
+                <br/>
+                <input type="checkbox" name="mascota">SI
+                <input type="checkbox" name="mascota">NOP
+                <input type="submit" value="Enviar">
+            </label>
+        </form>
+        <form action="" method="get">
+        <div class="recuadro">
+        <label><span>Cuales son tus hobbies</span>
+            <br/>
+            <input type="checkbox" name="hobbie" value="jobi">Pescar
+            <input type="checkbox" name="hobbie" value="jobi">Correr
+            <input type="checkbox" name="hobbie" value="jobi">Yoga
+            <input type="submit" value="Enviar">
+        </label> 
+        </div>       
+        </form>
+        <br/>
+        <br/>
+        <form action="" method="post">
+            <h2>EJERCICIO Elegir el mes </h2>
+            <label id="correr">Elegí el mes de tu cumpleaños</label>
+            <br/>
+            <select name ="mes" id ="mes">
+                <option value = "1"> Enero</option>
+                <option value = "2">Febrero</option>
+                <option value = "3">Marzo</option>
+                <option value = "4"> Abril</option>
+                <option value = "5">Mayo</option>
+                <option value = "6">Junio</option>
+                <option value = "7"> Julio</option>
+                <option value = "8">Agosto</option>
+                <option value = "9">Septiembre</option>
+                <option value = "10"> Octubre</option>
+                <option value = "11">Noviembre</option>
+                <option value = "12">Diciembre</option>
+            </select>
+            <input type="submit" value="Enviar">
+        </form>
+        <form action="" method="post">
+            <h2>EJERCICIO ENviar o Borrar </h2> 
+            <label id="correr" for ="comentario">querés enviar la info?</label> 
+            <br/>          
+            <textarea name="comentario" id="comentario">Comentarios</textarea>
+        <button type="submit">Enviar</button> 
+        <button type="reset">Borrar</button>
+        </form> 
+        
+     </main>
+
+</body>
+</html>

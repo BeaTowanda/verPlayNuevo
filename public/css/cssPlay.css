@@ -1,0 +1,61 @@
+
+/*Color de fondo "lightseagreen"
+Tipografía blanca
+Tamaño de fuente: 28px
+Un borde inferior sólido de 3px de color indigo
+Padding de 22px
+Un margen de 15px abajo, para separar el header de la sección principal
+Texto centrado
+No olvidar el box sizing*/
+header {background-color:lightseagreen;
+        color:white;         
+        font-size:28px;
+        border-bottom: indigo solid;
+        padding:22px;
+        margin-bottom:15px;
+        text-align: center;
+        box-sizing: border-box; 
+}
+/*Ancho del 50% de su contenedor
+Margen a la izquierda del 25%
+Color de fondo "gainsboro"
+Margen de 15px abajo, para separarlo del footer
+Padding de 12px a la izquierda
+Padding de 30px arriba y abajo
+Borde negro rayado (dashed) de 1px
+Probemos agregar la regla border-radius:5px para evidenciar qué hace
+Texto centrado
+No olvidar el box sizing*/
+section {width:50%;
+        margin-left:25%;
+        margin-bottom:15px;        
+        padding: 30px 0px 30px 12px;
+        background-color: gainsboro;
+        border:black dashed 1px;
+        border-radius:5px;
+        text-align: center;
+        box-sizing: border-box;
+        }
+/*footer
+Para el <footer>:
+
+Color de fondo "rebeccapurple"
+Tipografía blanca
+Un borde superior sólido de 1 px de color "lightseagreen"
+Padding de 12px
+Un alto fijo de 40px
+Texto centrado
+No olvidar el box sizing 
+El <section> debe tener un margen inferior de 15px
+El borde superior del <footer> debe ser sólido de 1px de color lightseagreen
+El <section> debe tener un padding izquierdo de 12px
+El <header> debe tener un borde inferior sólido de 3px de color indigo
+El <section> debe tener un padding superior de 30px
+El <section> debe tener un padding inferior de 30px*/
+footer { background-color:rebeccapurple;
+        color: white;
+        border-top: lightseagreen solid 1px;
+        padding:12px;
+        text-align: center;
+        height:40px ;
+        box-sizing: border-box;}
